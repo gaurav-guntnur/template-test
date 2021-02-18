@@ -1,0 +1,52 @@
+[33mcommit 17080c4b2f1044341ae6ad92d5268939975d5202[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: gauravguntnurmohan <gaurav.guntnur.mohan@sap.com>
+Date:   Thu Feb 18 16:19:39 2021 +0530
+
+    initial commit
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5d80b61[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <title>Template</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">[m
+[32m+[m[32m<link rel="stylesheet" href="style.css">[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <!-- Script -->[m
+[32m+[m[32m    <script src="script.js"></script>[m
+[32m+[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/script.js b/script.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..155bd95[m
+[1m--- /dev/null[m
+[1m+++ b/script.js[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mconsole.log('testing')[m
+\ No newline at end of file[m
+[1mdiff --git a/style.css b/style.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c995720[m
+[1m--- /dev/null[m
+[1m+++ b/style.css[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32mhtml{[m
+[32m+[m[32m    box-sizing: border-box;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mbody{[m
+[32m+[m[32m    margin: 0;[m
+[32m+[m[32m    min-height: 100vh;[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
